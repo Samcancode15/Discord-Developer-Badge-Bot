@@ -17,7 +17,7 @@ if exist venv\Scripts\python.exe (
     echo Virtual environment found.
     call .\venv\Scripts\activate
     set /p token=Enter your bot token: 
-    python main.py %token%
+    python main.py !token!
     goto end
 )
 

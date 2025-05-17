@@ -24,7 +24,7 @@ bot = commands.Bot(command_prefix="?", intents=discord.Intents.all())
 @bot.event
 async def on_ready():
     tree = await bot.tree.sync()
-    print(f"Logged in as {bot.user}\n{len(tree)} slash command(s) succesfuly loaded")
+    print(f"Logged in as {bot.user}\n{len(tree)} slash command(s) succesfuly loaded\nGo to a server which the bot is present in and run the /badge command")
 
 # Normal command
 @bot.command()
