@@ -4,7 +4,9 @@ A minimal Discord bot with a single slash command to help users become eligible 
 
 ## Demo
 
-<!-- Todo after video is uploaded on Youtube -->
+<a href="https://www.youtube.com/watch?v=lEqw1O_UdkQ&t=0s" target="_blank">
+  <img src="https://img.youtube.com/vi/lEqw1O_UdkQ/maxresdefault.jpg" alt="Watch on YouTube" width="600">
+</a>
 
 ## How to Use
 
@@ -17,17 +19,15 @@ A minimal Discord bot with a single slash command to help users become eligible 
 
 2. Make sure you have Python installed:
 
-   https://www.python.org/
+   Download Python by going to https://www.python.org/
 
 3. Run the code:
 
-   Double click and run the start.bat file
+   Double click and run the start.bat file to start the bot code
 
 4. Enter your Discord bot's token when prompted for it:
 
-   ```bash
-   Enter your bot token: %Your Discord bot token here%
-   ```
+   Press right click to paste your copied Discord bot token into the terminal
 
 ## Project Structure
 
