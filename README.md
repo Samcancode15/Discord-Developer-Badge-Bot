@@ -4,6 +4,8 @@ A minimal Discord bot with a single slash command to help users become eligible 
 
 ## Demo
 
+Watch the demo on YouTube:
+
 <a href="https://www.youtube.com/watch?v=lEqw1O_UdkQ&t=0s" target="_blank">
   <img src="https://img.youtube.com/vi/lEqw1O_UdkQ/maxresdefault.jpg" alt="Watch on YouTube" width="600">
 </a>
