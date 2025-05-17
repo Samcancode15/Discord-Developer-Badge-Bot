@@ -19,18 +19,18 @@ if exist venv\Scripts\python.exe (
     set /p token=Enter your bot token: 
     python main.py %token%
     goto end
-) else (
-    echo Virtual environment not found.
-    if !attempts! geq !max_attempts! (
-        echo Failed to create virtual environment after %max_attempts% attempts.
-        goto end
-    )
-
-    echo Creating a new environment (attempt !attempts! of %max_attempts%)...
-    set /a attempts+=1
-    python -m venv venv
-    goto check
 )
+
+echo Virtual environment not found.
+if !attempts! geq !max_attempts! (
+    echo Failed to create virtual environment after !max_attempts! attempts.
+    goto end
+)
+
+echo Creating a new environment (attempt !attempts! of !max_attempts!)...
+set /a attempts+=1
+python -m venv venv
+goto check
 
 :end
 pause
